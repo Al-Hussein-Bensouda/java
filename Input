@@ -1,0 +1,25 @@
+import java.util.*;
+
+ // Compiler version JDK 11.0.2
+
+ class Main { 
+   
+    public static void main(String[] args) 
+    { 
+    Scanner sc=new Scanner(System.in);
+    Main ma=new Main();
+    String name;
+    System.out.print("name:"); 
+    name=sc.nextLine();
+    String op=string(name);
+    System.out.println(op);
+    }
+    static String string(String name){
+        if(name.length() == 0){
+          System.out.println("vacuum");
+        }else if(name.length()!=0){
+         System.out.println("Full of it");
+      }
+      return " ";
+    }
+    }
